@@ -1,0 +1,48 @@
+.about {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
+.about-list {
+  display: flex;
+  margin-left: calc(-1 * var(--card-indent));
+  margin-top: calc(-1 * var(--card-indent));
+}
+
+.about-item {
+  margin-left: var(--card-indent);
+  margin-top: var(--card-indent);
+  flex-basis: calc(100% / 4 - var(--card-indent));
+}
+
+.about-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: var(--card-indent);
+}
+
+.about-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.about-desicion {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about-works {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color-fonts);
+}
