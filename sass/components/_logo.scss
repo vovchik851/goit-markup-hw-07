@@ -7,6 +7,17 @@
   padding: 24px 0;
   color: var(--first-color-fonts);
   margin-right: 93px;
+
+  &-contakt {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-fonts-dark-background);
+    margin-bottom: 20px;
+  }
 }
 
 .logo-web {
@@ -16,15 +27,4 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
-
-.logo-webstudio-contakt {
-  display: inline-block;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--color-fonts-dark-background);
-  margin-bottom: 20px;
 }

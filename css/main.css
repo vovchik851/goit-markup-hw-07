@@ -85,15 +85,6 @@ img {
   margin-right: 93px;
 }
 
-.logo-web {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
 .logo-webstudio-contakt {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
@@ -103,6 +94,15 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-fonts-dark-background);
   margin-bottom: 20px;
+}
+
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .navigation {
@@ -126,8 +126,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigatin-link:hover,
-.navigatin-link:focus {
+.navigatin-link:hover, .navigatin-link:focus {
   color: var(--accent-color);
 }
 
@@ -888,15 +887,6 @@ img {
   justify-content: center;
 }
 
-.modal-form-check-desc-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration-line: underline;
-  color: var(--accent-color);
-}
-
 .modal-form-check-desc::before {
   display: block;
   content: '';
@@ -920,6 +910,15 @@ img {
   border: 2px solid var(--accent-color);
 }
 
+.modal-form-check-desc-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--accent-color);
+}
+
 .modal-form-btn {
   min-width: 200px;
   padding: 12px 20px;
@@ -938,8 +937,7 @@ img {
   color: #ffffff;
 }
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }

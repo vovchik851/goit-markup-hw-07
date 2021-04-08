@@ -33,11 +33,10 @@
   width: 18px;
   height: 18px;
   fill: currentColor;
-}
-
-.modal-close-button:hover .modal-close-button-icon,
-.modal-close-button:focus .modal-close-button-icon {
-  color: var(--accent-color);
+  .modal-close-button:hover &,
+  .modal-close-button:focus & {
+    color: var(--accent-color);
+  }
 }
 
 .is-hidden {
