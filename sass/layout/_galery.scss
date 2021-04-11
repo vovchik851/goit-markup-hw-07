@@ -10,8 +10,10 @@
   }
 }
 
-.galery-head-item:not(:last-child) {
+.galery-head-item {
+&:not(:last-child) {
   margin-right: 8px;
+}
 }
 
 .galery-head-bytton {

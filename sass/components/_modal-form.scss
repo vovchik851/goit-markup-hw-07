@@ -22,6 +22,8 @@
 }
 .modal-form-input-wrapper {
   position: relative;
+  display: block;
+  margin-top: 4px;
 }
 
 .modal-form-input {
@@ -35,11 +37,6 @@
     outline: none;
     border-color: var(--accent-color);
   }
-}
-
-.modal-form-input-wrapper {
-  display: block;
-  margin-top: 4px;
 }
 
 .modal-form-icon {
@@ -132,7 +129,7 @@
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
   &:hover,
   &:focus {
