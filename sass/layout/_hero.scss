@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  &-title {
+  &__title {
     letter-spacing: 0.06em;
     font-weight: 900;
     font-size: 44px;
@@ -24,7 +24,7 @@
     padding-left: 252px;
     padding-right: 252px;
   }
-  &-button {
+  &__button {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;

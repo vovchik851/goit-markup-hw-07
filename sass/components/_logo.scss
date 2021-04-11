@@ -1,4 +1,4 @@
-.logo-webstudio {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -8,8 +8,7 @@
   color: var(--first-color-fonts);
   margin-right: 93px;
 
-  &-contakt {
-    display: inline-block;
+  &_contakt {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -20,7 +19,7 @@
   }
 }
 
-.logo-web {
+.logo__accent {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
